@@ -13,7 +13,7 @@ function Header() {
         <div>
             <div>
 
-                <header id=Header className="flex justify-center w-full sticky top-0 z-50">
+                <header id='Header' className="flex justify-center w-full sticky top-0 z-50">
                     <div className="h-24 w-11/12 rounded-xl shadow-2xl mt-4 bg-white flex items-center justify-between">
                         <div className='ml-8'>
                             <img className="w-16" src={logo} alt="Logo" />
