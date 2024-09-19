@@ -1,6 +1,6 @@
 import React from "react";
 import heroImage from "../Images/downloadvan.png";
-import review from '/Users/test/Downloads/Jatamanvan/van/src/Images/undraw_reviews_lp8w.png'
+import review from '../Images/undraw_reviews_lp8w.png'
 
 function Aboutus() {
   return (
