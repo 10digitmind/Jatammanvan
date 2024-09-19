@@ -13,7 +13,7 @@ function Header() {
         <div>
             <div>
 
-                <header className="flex justify-center w-full sticky top-0 z-50">
+                <header id=Header className="flex justify-center w-full sticky top-0 z-50">
                     <div className="h-24 w-11/12 rounded-xl shadow-2xl mt-4 bg-white flex items-center justify-between">
                         <div className='ml-8'>
                             <img className="w-16" src={logo} alt="Logo" />
@@ -23,7 +23,7 @@ function Header() {
                         <nav className="hidden md:flex">
                             <ul className="flex items-center w-96 h-16 justify-evenly mr-4">
                                 <li>
-                                    <a className="text-sm" href="">
+                                    <a className="text-sm" href="#Header">
                                         Home
                                     </a>
                                 </li>
@@ -57,7 +57,7 @@ function Header() {
                     <div className='w-11/12 h-auto flex items-center justify-center rounded-xl shadow-2xl bg-white'>
                         <ul className="flex-row w-96 h-auto">
                             <li className='flex items-center justify-center h-16'>
-                                <a className="text-sm" href="#na">
+                                <a className="text-sm" href="#Header">
                                     Home
                                 </a>
                             </li>
